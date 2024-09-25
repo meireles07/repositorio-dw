@@ -66,3 +66,7 @@ a:hover {
     color: rgb(0, 0, 0); 
     text-decoration: underline;
 }
+
+fieldset{
+    text-align: center;
+}
