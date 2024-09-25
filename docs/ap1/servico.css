@@ -62,3 +62,16 @@ a:hover {
     color: rgb(0, 0, 0); 
     text-decoration: underline;
 }
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.rodape img{
+    width: 40px;
+}
