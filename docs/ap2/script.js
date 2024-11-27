@@ -124,3 +124,4 @@ document.getElementById('search-region-btn').addEventListener('click', async () 
 
     document.getElementById('pokemon-region-gallery').innerHTML = galleryHTML;
 });
+
