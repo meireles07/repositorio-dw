@@ -98,7 +98,7 @@ document.getElementById('search-region-btn').addEventListener('click', async () 
     }
 
     const data = await response.json();
-    const pokemonList = data.pokemon_species.slice(0, 10);
+    const pokemonList = data.pokemon_species.slice();
 
     let galleryHTML = '';
     for (const pokemon of pokemonList) {
